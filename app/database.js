@@ -92,8 +92,6 @@ var initialData = {
   }
 };
 
-
-
 var data = JSON.parse(localStorage.getItem('facebook_data'));
 if (data === null) {
   data = JSONClone(initialData);
